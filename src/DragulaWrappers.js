@@ -17,7 +17,7 @@ const DragulaWrappers = (containers) => {
         return false; // don't prevent any drags from initiating by default
       },
     // options here, e.g.:
-    copy: false,
+   
     revertOnSpill: true,
     dragend: (el) => {
       const swimlane = el.closest('.swimlane');
